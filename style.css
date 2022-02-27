@@ -1,0 +1,132 @@
+@font-face {
+	font-family: "robotoregular";
+	src: url("font/roboto-regular-webfont.woff2") format("woff2"),
+		url("font/roboto-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* 
+GENERAL STYLING
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero {
+	max-width: 100%;
+	height: 75rem;
+	background-color: #1f2937;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "robotoregular", Arial, Helvetica, sans-serif;
+}
+
+.container-hero {
+	max-width: 130rem;
+	margin: 0 auto;
+}
+
+/* 
+STYLING NAV
+*/
+
+.hero-nav {
+	max-width: 130rem;
+	height: 14rem;
+	display: flex;
+	align-items: center;
+	/* border: 1px solid red; */
+}
+
+.hero-nav-list {
+	list-style-type: none;
+	display: flex;
+	margin-left: auto;
+	gap: 4.8rem;
+}
+
+.hero-link p {
+	color: #e5e7eb;
+}
+
+.hero-link:link,
+.herolink:visited {
+	display: flex;
+	align-items: center;
+	font-size: 1.8rem;
+	text-decoration: none;
+	gap: 1rem;
+}
+
+.hero-link:hover,
+.hero-link:active {
+	/* border-bottom: 0.2rem solid #856830; */
+	transform: scale(1.1);
+	transition: all 0.4s ease-in-out;
+}
+
+.hero-link p:hover {
+	border-bottom: 0.2rem solid #856830;
+	transition: all 0.4s ease-in-out;
+}
+
+/* 
+STYLING HERO
+*/
+
+.main-hero {
+	display: flex;
+	max-width: 130rem;
+	gap: 4.8rem;
+}
+
+/* STYLING TEXT */
+.second-title-hero {
+	font-size: clamp(1rem, 10vw, 2.4rem);
+	color: #856830;
+	line-height: 105%;
+	letter-spacing: 0.5rem;
+	font-weight: 400;
+	margin-bottom: 3.2rem;
+	word-spacing: 0.5rem;
+}
+
+.principal-title-hero {
+	font-size: clamp(5rem, 10vw, 8.6rem);
+	color: #f9faf8;
+	line-height: 1;
+	letter-spacing: -0.3rem;
+	font-weight: 500;
+	margin-bottom: 11.6rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+.main-title-hero {
+	max-width: 62.6rem;
+	height: 57.6rem;
+	/* border: 1px solid orangered; */
+}
+
+.main-img-hero {
+	max-width: 62.6rem;
+	height: 57.6rem;
+}
+
+.btn-hero {
+	border: none;
+	padding: 1.5rem 3rem;
+	border-radius: 0.9rem;
+	background-color: #3882f6;
+	color: #e5e7eb;
+	font-size: 2.4rem;
+	cursor: pointer;
+}
