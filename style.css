@@ -66,13 +66,13 @@ STYLING NAV
 	font-size: 1.8rem;
 	text-decoration: none;
 	gap: 1rem;
+	transition: all 0.4s ease-in-out;
 }
 
 .hero-link:hover,
 .hero-link:active {
 	/* border-bottom: 0.2rem solid #856830; */
 	transform: scale(1.1);
-	transition: all 0.4s ease-in-out;
 }
 
 .hero-link p:hover {
@@ -107,7 +107,7 @@ STYLING HERO
 	line-height: 1;
 	letter-spacing: -0.3rem;
 	font-weight: 500;
-	margin-bottom: 11.6rem;
+	margin-bottom: 8.6rem;
 }
 
 img {
@@ -136,12 +136,12 @@ img {
 	font-size: 2.4rem;
 	font-weight: 600;
 	cursor: pointer;
+	transition: transform 0.4s ease-in-out;
 }
 
 .btn-hero-anchor:hover,
 .btn-hero-anchor:active {
 	transform: scale(1.1);
-	transition: transform 0.4s ease-in-out;
 }
 
 /* 
