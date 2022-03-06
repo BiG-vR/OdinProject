@@ -32,6 +32,7 @@ html {
 
 .container-hero {
 	max-width: 130rem;
+	padding: 3.2rem;
 	margin: 0 auto;
 }
 
